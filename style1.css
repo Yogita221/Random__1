@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+   
+}
+button{
+   font-size: 20px;
+   border: none;
+   border-radius: 14px;
+   padding: 15px 17px;
+   background-color: rgb(9, 40, 74);
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 99999;
+   
+
+
+}
+button:active{
+    transform: translate(-50%, -50%) scale(0.5);
+}
